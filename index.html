@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Игра в загадки</title>
+</head>
+
+<body id="body">
+    <div id="main">
+
+
+        <div id="question"></div>
+        <!-- <div id="question"></div> -->
+
+        <input type="text" placeholder="Ваш ответ" id="answer">
+        <div class="empty"></div>
+
+        <button onclick="check()" id="check">Проверить</button>
+        <div class="empty"></div>
+        <button onclick="next()">Другая загадка</button>
+        <div class="empty"></div>
+        <div id="right">Правильных ответов: </div>
+        <div id="whole">Попыток: </div>
+    </div>
+    <button onclick="start()" id="start">Начать игру</button>
+</body>
+
+</html>
